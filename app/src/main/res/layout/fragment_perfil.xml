@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PerfilFragment"
+    android:orientation="vertical">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mascota1"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="3dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="@color/colorPrimaryDark">
+
+    </com.mikhaellopez.circularimageview.CircularImageView>
+<!--
+    <com.mikhaellopez.circularimageview.CircularImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:src="@drawable/mascota1"
+    app:civ_border_color="@color/colorAccent"
+    app:civ_border_width="3dp"
+    app:civ_shadow="true"
+    app:civ_shadow_radius="10dp"
+    app:civ_shadow_color="@color/colorPrimaryDark"/>
+-->
+    <TextView
+        android:id="@+id/tvNombrePerfilMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_mascota"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:background="@drawable/borde" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPerfilMascota"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"/>
+
+</LinearLayout>

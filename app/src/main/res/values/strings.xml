@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Petagram</string>
+
+    <string name="nombre_mascota">Rambo</string>
+    <string name="rating_inicial">0</string>
+
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acerca_de">Acerca De</string>
+    <string name="menu_favoritos">Mascotas Favoritas</string>
+
+    <string name="app_bio">Bio</string>
+    <string name="app_version">Desarrolladora freelance</string>
+    <string name="app_descripcion">Mi nombre es Victoria Cunill y soy desarrolladora Java. Hace 2 años no hubiese podido decir esto, pero mis ganas de aprender me conectaron con este maravilloso mundo.</string>
+    <string name="dominio">Vicky Cunill</string>
+    <string name="derechos">©2020 Petagram.Vicky</string>
+
+    <string name="msj_contacto_1">Formulario de contacto</string>
+    <string name="hint_input_nombre_completo">Nombre:</string>
+    <string name="hint_input_correo_electronico">E-mail:</string>
+    <string name="hint_input_mensaje">Mensaje</string>
+
+    <string name="label_btn_enviar">Enviar mensaje</string>
+</resources>
