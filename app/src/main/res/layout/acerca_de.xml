@@ -30,13 +30,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30sp"
-                android:textStyle="bold|italic"
-                android:textColor="@color/colorAccent"
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp"
                 android:text="@string/app_bio"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
 
             <TextView
                 android:layout_width="match_parent"

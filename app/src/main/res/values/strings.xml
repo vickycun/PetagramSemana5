@@ -8,9 +8,9 @@
     <string name="menu_acerca_de">Acerca De</string>
     <string name="menu_favoritos">Mascotas Favoritas</string>
 
-    <string name="app_bio">Bio</string>
-    <string name="app_version">Desarrolladora freelance</string>
-    <string name="app_descripcion">Mi nombre es Victoria Cunill y soy desarrolladora Java. Hace 2 años no hubiese podido decir esto, pero mis ganas de aprender me conectaron con este maravilloso mundo.</string>
+    <string name="app_bio"><d>Desarrollado por:</d></string>
+    <string name="app_version">v.1.1.0</string>
+    <string name="app_descripcion">Victoria Cunill - desarrolladora freelance.</string>
     <string name="dominio">Vicky Cunill</string>
     <string name="derechos">©2020 Petagram.Vicky</string>
 
